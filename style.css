@@ -1,0 +1,151 @@
+.jumbotron {
+    background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1675-1024x683.jpg);
+    height: 700px;
+    background-size: 100% 100%;
+    padding: 40px;
+}
+
+
+/*logo of the page */
+
+.logo {
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50% 50%;
+    background-color: rgb(211, 86, 86);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+
+
+/*page content*/
+
+.pagecontent h1,
+p {
+    color: white;
+}
+
+.pagecontent h1 {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+
+/*buttons */
+
+button {
+    background-color: rgb(211, 86, 86, 0.5);
+    border: none;
+    border-radius: 5%;
+    margin-right: 20px;
+}
+
+.btn {
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.buttons {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background-color: rgb(211, 86, 86);
+    color: white;
+}
+
+
+/*Try it not*/
+
+.trial {
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+    color: black;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.trial img {
+    width: 270px;
+    height: 120px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+/*media Queries*/
+
+@media (min-width:480px) and (max-width:768px) {
+    .jumbotron {
+        height: 480px;
+        margin: 0px;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+        font-size: 7px;
+        padding-top: 7px;
+    }
+    .pagecontent h1 {
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+    }
+    .pagecontent {
+        text-align: center;
+    }
+    .buttons {
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    .btn {
+        font-size: 15px;
+    }
+    .trial img {
+        width: 180px;
+        height: 60px;
+        margin: 10px;
+    }
+}
+
+@media (max-width:480px) {
+    .jumbotron {
+        height: 410px;
+        margin: 0px;
+        padding: 10px;
+    }
+    .logo {
+        width: 35px;
+        height: 35px;
+        font-size: 2px;
+        padding-top: 1px;
+    }
+    .pagecontent h1 {
+        font-weight: 100;
+        font-size: 25px;
+        text-align: center;
+    }
+    .pagecontent {
+        text-align: center;
+    }
+    .buttons {
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .btn {
+        font-size: 10px;
+    }
+    .trial img {
+        width: 150px;
+        height: 40px;
+        margin: 7px;
+    }
+}
